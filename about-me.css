@@ -1,0 +1,84 @@
+background-color:
+
+  .img-fluid {
+   width: 200px;
+   height: 200px;
+ }
+
+ .img-avatar {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+  }
+
+ #portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px; }
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; }
+    #portfolio .portfolio-item .portfolio-link .caption {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(24, 188, 156, 0.9); }
+      #portfolio .portfolio-item .portfolio-link .caption:hover {
+        opacity: 1; }
+      #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: white; }
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+          margin-top: -12px; }
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+        #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+          margin: 0; }
+
+#portfolio * {
+  z-index: 2; }
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px; } }
+
+
+ footer {
+   color: white; }
+   footer h3 {
+     margin-bottom: 30px; }
+   footer .footer-above {
+     padding-top: 50px;
+     background-color: green; }
+   footer .footer-col {
+     margin-bottom: 50px; }
+   footer .footer-below {
+     padding: 25px 0;
+     background-color: green; }
+
+     .btn-social {
+       color: black;
+       font-size: 20px;
+       line-height: 45px;
+       display: inline-block;
+       width: 50px;
+       height: 50px;
+       text-align: center;
+       border: 2px solid white;
+       border-radius: 100%; }
+
+       .btn.active,
+       .btn:active,
+       .btn:focus {
+         outline: none; }
